@@ -36,7 +36,7 @@ body {
 }
 
 .page-container {
-    margin: 5%
+    margin: 5% !important;
 }
 
 img {
@@ -93,6 +93,12 @@ p
     font-size: larger !important;
     text-decoration: underline !important;
     color: var(--shadow) !important;
+}
+
+.resume-link {
+    color: var(--adobe-pink) !important;
+    font-weight: bold !important;
+    margin-top: 10%
 }
 
 
