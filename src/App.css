@@ -95,4 +95,10 @@ p
     color: var(--shadow) !important;
 }
 
+.resume-link {
+    color: var(--adobe-pink) !important;
+    font-weight: bold !important;
+    margin-top: 10%
+}
+
 
