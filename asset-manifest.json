@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hanks-react-portfolio/static/css/main.6c6066cc.css",
+    "main.js": "/hanks-react-portfolio/static/js/main.f50970a6.js",
+    "index.html": "/hanks-react-portfolio/index.html",
+    "main.6c6066cc.css.map": "/hanks-react-portfolio/static/css/main.6c6066cc.css.map",
+    "main.f50970a6.js.map": "/hanks-react-portfolio/static/js/main.f50970a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c6066cc.css",
+    "static/js/main.f50970a6.js"
+  ]
+}
