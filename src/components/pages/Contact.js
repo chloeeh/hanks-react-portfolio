@@ -35,7 +35,7 @@ function Form() {
 
     // Check if email is not valid or the userName is empty.
     if (!validateEmail(email) || !name || !message) {
-      setErrorMessage('Email is invalid. Or Name and message field must not be empty');
+      setErrorMessage('Email is invalid. Name and message fields must not be empty');
       // Exit so user can correct error
       return;
     }
@@ -51,27 +51,36 @@ function Form() {
     <div id="contact" className='col page-container'>
       <h1>Contact Me</h1>
       <form className="form">
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="name"
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="message"
-        />
+        <div>
+          <input
+            title="Required"
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="Email"
+          />
+        </div>
+        <div>
+          <input
+            title="Required"
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="Name"
+          />
+        </div>
+        <div>
+          <input
+            title="Required"
+            value={message}
+            name="Message"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="message"
+          />
+        </div>
         <button type="button" onClick={handleFormSubmit}>
           Submit
         </button>
@@ -86,34 +95,3 @@ function Form() {
 }
 
 export default Form;
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-
-// export default function Contact() {
-//   return (
-//     <div>
-//       <h1>Contact Page</h1>
-//       <p>
-//         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-//         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-//         magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-//         efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-//         mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-//         posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-//         faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-//         ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-//         dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-//         conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-//         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-//       </p>
-//     </div>
-//   );
-// }

@@ -12,7 +12,8 @@ export default function ProjectCard(props) {
                             <p className="card-text">{item.description}</p>
                         </div>
                         <div className="card-body">
-                            <a href={item.link} className="card-link">I wanna see!!</a>
+                            <a href={item.liveLink} className="card-link">Go to the App</a>
+                            <a href={item.repoLink} className="card-link">View Repo</a>
                         </div>
                     </div>
                 )}
