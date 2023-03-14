@@ -3,14 +3,11 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      After 5 years in the aerospace industry working as a technical hardware lead on NASA's new spacesuit development and, later, developing science instruments for other NASA and NASA-affiliated entities, Chloe looks forward to balancing her skillset with software experience.
+
+      Chloe graduated with a BSEE and BA Russian Language in 2017. She enjoys urban sketching; oil painting; creating with textiles, reading, and writing.
       </p>
     </div>
   );
