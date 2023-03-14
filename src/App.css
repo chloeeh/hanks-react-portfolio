@@ -1,0 +1,98 @@
+
+
+#root {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 13.6rem; /* height of your footer */
+  }
+  
+  :root {
+    --page-margin: 2%;
+    --content-radius: 30px;
+    --content-margin: 30px 0px;
+    --shadow: #2d5a74;
+    --window-deep: #535461;
+    --adobe-pink: #CA929A;
+    --turquoise: #7bd7d6;
+    --lush-green: #1f5c59;
+    --space-mono-family: "Space Mono", monospace;
+    --poppins-bold-family: "Poppins", sans-serif;
+    --subheading-font-size: 2.5rem;
+    --flex-sub-card: 1 1 0;
+    --transition-hover: 0.75s;
+  }
+
+
+body {
+    background-color: var(--shadow) !important;
+}
+
+.nav-bar {
+    background-color: var(--adobe-pink);
+    width: 100%;
+    color: var(--adobe-pink) !important;
+}
+
+.page-container {
+    margin: 5%
+}
+
+img {
+    margin: 2%;
+    max-width: 96%;
+}
+
+.card {
+    /* background-color: var(--lush-green) !important; */
+    background-color: var(--adobe-pink) !important;
+    border-radius: 10%;
+    margin: 3%
+}
+
+#header {
+    width: 100%;
+    background-color: var(--lush-green);
+}
+#footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: var(--adobe-pink);
+}
+
+.footer-icon {
+    color: var(--lush-green);
+}
+
+h1,
+h2,
+h3,
+p
+/* .card-title,
+.card-text,
+.card-link  */
+{ 
+    color: var(--adobe-pink);
+}
+
+.card-title,
+.card-text,
+.card-link  {
+    color: var(--lush-green);
+}
+
+.nav-link {
+    color: var(--lush-green) !important;
+    font-weight: bold !important;
+}
+
+.clicked {
+    font-weight: bolder !important;
+    font-size: larger !important;
+    text-decoration: underline !important;
+    color: var(--shadow) !important;
+}
+
+
