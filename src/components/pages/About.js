@@ -1,4 +1,5 @@
 import React from 'react';
+import monChouChou from '../../images/monchouchou.png'
 
 export default function About() {
   return (
@@ -13,7 +14,7 @@ export default function About() {
         </p>
       </div>
       <div className='col'>
-        <img src="images/monchouchou.png" alt="profile img of Chloe"></img>
+        <img src={monChouChou} alt="profile img of Chloe"></img>
       </div>
     </div>
   );

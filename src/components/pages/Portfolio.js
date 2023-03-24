@@ -1,10 +1,16 @@
 import React from 'react';
 import Project from '../ProjectCard';
+import goalGetStarted from '../../images/getStarted.png';
+import guildWarsCover from '../../images/proj1-cover.png';
+import employeeTracker from '../../images/employeeTracker.png';
+import weatherDisplay from '../../images/weather-display.png';
+import workdayScheduler from '../../images/hanks-workday-scheduler.png';
+import cssPortfolio from '../../images/large-screen.png';
 
 const projects = [
   {
     id: 1,
-    image: "images/getStarted.png",
+    image: goalGetStarted,
     name: "You Goal Girl",
     alt: "project 2 of course",
     description: "frontend, backend, handlebars",
@@ -13,7 +19,7 @@ const projects = [
   },
   {
     id: 2,
-    image: "images/proj1-cover.png",
+    image: guildWarsCover,
     name: "Guild Wars 2",
     alt: "project 1 of course",
     description: "",
@@ -22,7 +28,7 @@ const projects = [
   },
   {
     id: 3,
-    image: "images/employeeTracker.png",
+    image: employeeTracker,
     name: "MySQL, Express, Node Employee Tracker",
     alt: "Terminal view for Employee Tracker",
     description: "",
@@ -31,7 +37,7 @@ const projects = [
   },
   {
     id: 4,
-    image: "images/weather-display.png",
+    image: weatherDisplay,
     name: "Weather Dashboard",
     alt: "weather for New Orleans",
     description: "",
@@ -41,7 +47,7 @@ const projects = [
   },
   {
     id: 5,
-    image: "images/hanks-workday-scheduler.png",
+    image: workdayScheduler,
     name: "Workday Scheduler",
     alt: "Workday Calendar View",
     description: "",
@@ -50,7 +56,7 @@ const projects = [
   },
   {
     id: 6,
-    image: "images/large-screen.png",
+    image: cssPortfolio,
     name: "First Portfolio: CSS/HTML",
     alt: "screenshot of css/html portfolio",
     description: "",
