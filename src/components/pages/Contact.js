@@ -84,13 +84,16 @@ function Form() {
             placeholder="Message" 
           />
         </div>
-        <button type="button" onClick={handleFormSubmit}>
+        <button 
+          className='flex p-2 rounded-lg bg-[#CA929A] text-[#1f5c59] font-bold active:bg-[#d16071]'
+          type="submit" 
+          onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text font-bold mt-2">{errorMessage}</p>
         </div>
       )}
     </div>
