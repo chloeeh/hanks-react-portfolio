@@ -5,11 +5,11 @@ import '../App.css';
 export default function ProjectCard(props) {
     return (
         <div className='container m-auto'>
-        <div className=" mx-auto project-card flex-1 flex flex-col items-center">
+        <div className=" mx-auto project-card flex-1 flex flex-row justify-content-center flex-wrap items-center">
             {props.projects.map((item) => {
                 return (
-                    <div className="card md:w-50" key={item.id}>
-                        <img src={item.image} className="card-img-top" alt={item.alt}></img>
+                    <div className="card md:w-[40%]" key={item.id}>
+                        <img src={item.image} className="card-img-top min-h-[30vh] md:max-h-[40vh] md:min-h-[30vh]" alt={item.alt}></img>
                         <div className="card-body">
                             <h5 className="card-title">{item.name}</h5>
                             <p className="card-text">{item.description}</p>
