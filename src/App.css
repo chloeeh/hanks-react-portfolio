@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 #root {
     min-height: 100vh; /* will cover the 100% of viewport */
@@ -69,7 +71,9 @@ img {
 h1,
 h2,
 h3,
-p
+p,
+ul,
+li
 /* .card-title,
 .card-text,
 .card-link  */
@@ -92,13 +96,15 @@ p
     font-weight: bolder !important;
     font-size: larger !important;
     text-decoration: underline !important;
-    color: var(--shadow) !important;
+    color: var(--lush-green) !important;
 }
 
 .resume-link {
     color: var(--adobe-pink) !important;
     font-weight: bold !important;
-    margin-top: 10%
 }
 
+.card-body {
+    width: 60% !important;
+}
 

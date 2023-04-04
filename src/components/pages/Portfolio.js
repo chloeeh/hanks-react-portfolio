@@ -6,10 +6,20 @@ import employeeTracker from '../../images/employeeTracker.png';
 import weatherDisplay from '../../images/weather-display.png';
 import workdayScheduler from '../../images/hanks-workday-scheduler.png';
 import cssPortfolio from '../../images/large-screen.png';
+import bexarCountyMarket from '../../images/bexarCountyMarket.png';
 
 const projects = [
   {
     id: 1,
+    image: bexarCountyMarket,
+    name: "Bexar County Business",
+    alt: "Bootcamp Final Project",
+    description: "ReactJS, MongoDB, GraphQL",
+    liveLink: "https://clj-yougoalgirl.herokuapp.com/",
+    repoLink: "https://github.com/jessicashong/bexar-market",
+  },
+  {
+    id: 2,
     image: goalGetStarted,
     name: "You Goal Girl",
     alt: "project 2 of course",
@@ -18,7 +28,7 @@ const projects = [
     repoLink: "https://github.com/chloeeh/you-goal-girl",
   },
   {
-    id: 2,
+    id: 3,
     image: guildWarsCover,
     name: "Guild Wars 2",
     alt: "project 1 of course",
@@ -27,7 +37,7 @@ const projects = [
     repoLink: "https://github.com/mdinkelbach/gw2-gold-conversion",
   },
   {
-    id: 3,
+    id: 4,
     image: employeeTracker,
     name: "MySQL, Express, Node Employee Tracker",
     alt: "Terminal view for Employee Tracker",
@@ -36,7 +46,7 @@ const projects = [
     repoLink: "https://github.com/chloeeh/hanks-employee-tracker",
   },
   {
-    id: 4,
+    id: 5,
     image: weatherDisplay,
     name: "Weather Dashboard",
     alt: "weather for New Orleans",
@@ -46,7 +56,7 @@ const projects = [
 
   },
   {
-    id: 5,
+    id: 6,
     image: workdayScheduler,
     name: "Workday Scheduler",
     alt: "Workday Calendar View",
@@ -55,7 +65,7 @@ const projects = [
     repoLink: "https://github.com/chloeeh/hanks-workday-scheduler",
   },
   {
-    id: 6,
+    id: 7,
     image: cssPortfolio,
     name: "First Portfolio: CSS/HTML",
     alt: "screenshot of css/html portfolio",
