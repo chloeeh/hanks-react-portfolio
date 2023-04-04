@@ -8,7 +8,7 @@ export default function ProjectCard(props) {
         <div className=" mx-auto project-card flex-1 flex flex-col items-center">
             {props.projects.map((item) => {
                 return (
-                    <div className="card w-50" key={item.id}>
+                    <div className="card md:w-50" key={item.id}>
                         <img src={item.image} className="card-img-top" alt={item.alt}></img>
                         <div className="card-body">
                             <h5 className="card-title">{item.name}</h5>
