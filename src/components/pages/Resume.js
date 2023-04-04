@@ -28,6 +28,31 @@ export default function Resume() {
                     </li>
                 </ul>
             </div>
+            <div>
+                <h2>Front End</h2>
+                <ul> 
+                    <li>ReactJS</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Mobile First/Responsive Design</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind</li>
+                </ul>
+
+                <h2>Back End</h2>
+                <ul> 
+                    <li>APIs</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>MySQL, Sequelize</li>
+                    <li>MongoDB, Mongoose</li>
+                    <li>REST</li>
+                    <li>MERN</li>
+                    <li>GraphQL</li>
+                </ul>
+            </div>
 
         </div>
     );
