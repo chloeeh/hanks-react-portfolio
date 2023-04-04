@@ -65,6 +65,8 @@ Resources used:
 3) [More Font Awesome](https://fontawesome.com/v6/docs/web/use-with/react/)
 4) [Deploy to GH Pages](https://create-react-app.dev/docs/deployment/#github-pages)
 5) [How To Deploy A React App To Github Pages (Simple)](https://www.youtube.com/watch?v=Q9n2mLqXFpU)
+6) [Display favicon in document title](https://stackoverflow.com/questions/18156240/use-font-awesome-icon-as-favicon)
+7) [Convert Font Awesome icon into favicon](https://gauger.io/fonticon/)
 
 ## License
 
