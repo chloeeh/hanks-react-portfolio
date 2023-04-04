@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/hanks-react-portfolio/static/css/main.6c6066cc.css",
-    "main.js": "/hanks-react-portfolio/static/js/main.f50970a6.js",
+    "main.css": "/hanks-react-portfolio/static/css/main.2467d6a8.css",
+    "main.js": "/hanks-react-portfolio/static/js/main.72b53c8e.js",
+    "static/media/monchouchou.png": "/hanks-react-portfolio/static/media/monchouchou.2ff474036d714bda1036.png",
+    "static/media/employeeTracker.png": "/hanks-react-portfolio/static/media/employeeTracker.b6075094d40dd12f4138.png",
+    "static/media/large-screen.png": "/hanks-react-portfolio/static/media/large-screen.955c001ec21b46505354.png",
+    "static/media/proj1-cover.png": "/hanks-react-portfolio/static/media/proj1-cover.4bea85ec5ef7ec450660.png",
+    "static/media/getStarted.png": "/hanks-react-portfolio/static/media/getStarted.19ec5e28bfd905cb976f.png",
+    "static/media/hanks-workday-scheduler.png": "/hanks-react-portfolio/static/media/hanks-workday-scheduler.7fcc8b8a80b98c2d548d.png",
+    "static/media/bexarCountyMarket.png": "/hanks-react-portfolio/static/media/bexarCountyMarket.d5b642013230e41b41da.png",
+    "static/media/weather-display.png": "/hanks-react-portfolio/static/media/weather-display.27b6711787c8e1e0c21c.png",
     "index.html": "/hanks-react-portfolio/index.html",
-    "main.6c6066cc.css.map": "/hanks-react-portfolio/static/css/main.6c6066cc.css.map",
-    "main.f50970a6.js.map": "/hanks-react-portfolio/static/js/main.f50970a6.js.map"
+    "main.2467d6a8.css.map": "/hanks-react-portfolio/static/css/main.2467d6a8.css.map",
+    "main.72b53c8e.js.map": "/hanks-react-portfolio/static/js/main.72b53c8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c6066cc.css",
-    "static/js/main.f50970a6.js"
+    "static/css/main.2467d6a8.css",
+    "static/js/main.72b53c8e.js"
   ]
 }
