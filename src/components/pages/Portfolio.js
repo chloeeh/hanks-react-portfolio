@@ -15,7 +15,7 @@ const projects = [
     name: "Bexar County Business",
     alt: "Bootcamp Final Project",
     description: "ReactJS, MongoDB, GraphQL",
-    liveLink: "https://clj-yougoalgirl.herokuapp.com/",
+    liveLink: "https://bexar-market.herokuapp.com/",
     repoLink: "https://github.com/jessicashong/bexar-market",
   },
   {
