@@ -15,8 +15,8 @@ export const Form = () => {
       }, (error) => {
           console.log(error.text);
           console.log("ERROR");
-      e.target.reset();
       });
+      e.target.reset();
   };
 
   return (
