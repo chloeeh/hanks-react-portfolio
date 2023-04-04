@@ -1,5 +1,5 @@
-
 import React, { useState } from 'react';
+import '../../App.css';
 
 // Imported helper to check if email is valid
 import { validateEmail } from '../../utils/helpers';
@@ -53,6 +53,7 @@ function Form() {
       <form className="form">
         <div>
           <input
+            className='p-2 mb-2 border rounded-lg'
             title="Required"
             value={email}
             name="email"
@@ -63,6 +64,7 @@ function Form() {
         </div>
         <div>
           <input
+            className='p-2 mb-2 border rounded-lg'
             title="Required"
             value={name}
             name="name"
@@ -73,12 +75,13 @@ function Form() {
         </div>
         <div>
           <input
+            className='p-5 mb-2 border rounded-lg placeholder:-translate-y-9 placeholder:-translate-x-10'
             title="Required"
             value={message}
             name="Message"
             onChange={handleInputChange}
             type="text"
-            placeholder="message"
+            placeholder="Message" 
           />
         </div>
         <button type="button" onClick={handleFormSubmit}>
