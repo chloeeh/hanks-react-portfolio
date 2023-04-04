@@ -37,13 +37,13 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 
-![About Me](./assets/about.png)
+<img src="./assets/about.png" alt="About Me" width="400"/>
 
-![Portfolio](./assets/porfolio.png)
+<img src="./assets/portfolio.png" alt="About Me" width="400"/>
 
-![Contact](./assets/contact.png)
+<img src="./assets/contact.png" alt="About Me" width="400"/>
 
-![Resume](./assets/resume.png)
+<img src="./assets/resume.png" alt="About Me" width="400"/>
 
 
 ## Installation
