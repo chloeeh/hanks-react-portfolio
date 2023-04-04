@@ -9,7 +9,7 @@ export default function ProjectCard(props) {
             {props.projects.map((item) => {
                 return (
                     <div className="card md:w-[40%]" key={item.id}>
-                        <img src={item.image} className="card-img-top min-h-[30vh] md:max-h-[40vh] md:min-h-[30vh]" alt={item.alt}></img>
+                        <img src={item.image} className="card-img-top min-h-[30vh] md:max-h-[40vh] md:min-h-[40vh]" alt={item.alt}></img>
                         <div className="card-body">
                             <h5 className="card-title">{item.name}</h5>
                             <p className="card-text">{item.description}</p>
