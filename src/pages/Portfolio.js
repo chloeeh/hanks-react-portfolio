@@ -1,12 +1,12 @@
 import React from 'react';
-import Project from '../ProjectCard';
-import goalGetStarted from '../../images/getStarted.png';
-import guildWarsCover from '../../images/proj1-cover.png';
-import employeeTracker from '../../images/employeeTracker.png';
-import weatherDisplay from '../../images/weather-display.png';
-import workdayScheduler from '../../images/hanks-workday-scheduler.png';
-import cssPortfolio from '../../images/large-screen.png';
-import bexarCountyMarket from '../../images/bexarCountyMarket.png';
+import Project from '../components/ProjectCard';
+import goalGetStarted from '../images/getStarted.png';
+import guildWarsCover from '../images/proj1-cover.png';
+import employeeTracker from '../images/employeeTracker.png';
+import weatherDisplay from '../images/weather-display.png';
+import workdayScheduler from '../images/hanks-workday-scheduler.png';
+import cssPortfolio from '../images/large-screen.png';
+import bexarCountyMarket from '../images/bexarCountyMarket.png';
 
 const projects = [
   {

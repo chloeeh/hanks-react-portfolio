@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../App.css';
+import '../App.css';
 
-import monChouChou from '../../images/monchouchou.png'
+import monChouChou from '../images/monchouchou.png'
 
 export default function About() {
   return (
