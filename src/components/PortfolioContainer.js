@@ -20,7 +20,11 @@ export default function PortfolioContainer() {
         } return <About />;
     };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+    const handlePageChange = (page) => {
+        setCurrentPage(page);
+        document.title = `Chloe Hanks | ${page}`;  
+    };
+
 
     return(
 
