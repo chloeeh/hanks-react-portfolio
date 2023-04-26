@@ -9,7 +9,7 @@ export default function Resume() {
                 <ul>
                     <li>
                         <a
-                        className="resume-link clicked"
+                        className="resume-link clicked mr-5"
                         href="docs/eng_hanksChloe.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -19,7 +19,7 @@ export default function Resume() {
                     </li>
                     <li>
                         <a
-                        className="resume-link clicked"
+                        className="resume-link clicked mr-5"
                         href="docs/dev_hanksChloe.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -30,7 +30,7 @@ export default function Resume() {
                 </ul>
             </div>
             <div className='flex flex-col w-fit'>
-                <h2 className='flex font-bold pb-2 mr-5'>Proficiencies</h2>
+                <h2 className='flex font-bold pb-2 mr-5'>Web Dev Proficiencies</h2>
                 <div className='flex flex-row flex-wrap'>
                     <div className='flex flex-col'>
                         <h3 className='text-2xl'>Front End</h3>
