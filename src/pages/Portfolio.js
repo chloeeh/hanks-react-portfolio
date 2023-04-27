@@ -5,7 +5,7 @@ import guildWarsCover from '../images/proj1-cover.png';
 import employeeTracker from '../images/employeeTracker.png';
 import weatherDisplay from '../images/weather-display.png';
 import workdayScheduler from '../images/hanks-workday-scheduler.png';
-import cssPortfolio from '../images/large-screen.png';
+// import cssPortfolio from '../images/large-screen.png';
 import bexarCountyMarket from '../images/bexarCountyMarket.png';
 
 const projects = [
@@ -64,15 +64,15 @@ const projects = [
     liveLink: "https://chloeeh.github.io/hanks-workday-scheduler/",
     repoLink: "https://github.com/chloeeh/hanks-workday-scheduler",
   },
-  {
-    id: 7,
-    image: cssPortfolio,
-    name: "First Portfolio: CSS/HTML",
-    alt: "screenshot of css/html portfolio",
-    description: "",
-    liveLink: "https://chloeeh.github.io/hanks-portfolio/",
-    repoLink: "https://github.com/chloeeh/hanks-portfolio",
-  },
+  // {
+  //   id: 7,
+  //   image: cssPortfolio,
+  //   name: "First Portfolio: CSS/HTML",
+  //   alt: "screenshot of css/html portfolio",
+  //   description: "",
+  //   liveLink: "https://chloeeh.github.io/hanks-portfolio/",
+  //   repoLink: "https://github.com/chloeeh/hanks-portfolio",
+  // },
 ];
 
 export default function Portfolio() {

@@ -7,7 +7,7 @@ export default function Resume() {
             <div className='flex flex-col resume-link pb-10 '>
                 <h1>Résumés</h1>
                 <ul>
-                    <li>
+                    {/* <li>
                         <a
                         className="resume-link clicked mr-5"
                         href="docs/eng_hanksChloe.pdf"
@@ -16,7 +16,7 @@ export default function Resume() {
                         download="eng_hanksChloeResume">
                         Download Engineer Resume
                         </a> 
-                    </li>
+                    </li> */}
                     <li>
                         <a
                         className="resume-link clicked mr-5"
