@@ -84,7 +84,8 @@ export default function Resume() {
                             <ul className="list-disc"> 
                                 <li>LabVIEW</li>
                                 <li>Arduino</li>
-                                <li>Python</li>
+                                <li>MATLAB</li>
+                                <li>MathCAD</li>
                             </ul>
                         </div>
                     </div>
